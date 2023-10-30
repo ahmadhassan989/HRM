@@ -40,7 +40,6 @@
 				<tbody>
 					@foreach ($applicants as $applicant)	
 						<tr>
-							<td>{{$applicant->Job->title}}</td>
 							<td>{{$applicant->name}}</td>
 							<td>{{$applicant->email}}</td>
 							<td>{{$applicant->created_at->diffForHumans()}}</td>

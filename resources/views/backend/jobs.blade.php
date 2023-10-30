@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="{{asset('assets/plugins/select2/select2.min.css')}}">
 @endsection
 
-
 @section('page-header')
 <div class="row align-items-center">
 	<div class="col">
